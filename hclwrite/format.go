@@ -34,7 +34,7 @@ func format(tokens Tokens) {
 	lines := linesForFormat(tokens)
 	formatIndent(lines)
 	formatSpaces(lines)
-	formatCells(lines)
+	// formatCells(lines)
 }
 
 func formatIndent(lines []formatLine) {
